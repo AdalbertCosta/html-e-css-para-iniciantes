@@ -2,21 +2,20 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
   gap: 20px;
-  place-items: start;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .titulo {
   grid-column: 1/-1;
-  
-}
-.foto {
-  grid-column: 1;
-  grid-row: 2/4;
 }
 
-
+.info {
+  place-self: start;
+  display: grid;
+  place-items:start;
+  gap: 20px;
+}
 
 body {
   font-family: Arial;
