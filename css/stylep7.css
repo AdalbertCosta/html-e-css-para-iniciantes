@@ -15,3 +15,22 @@ h1 {
   border-radius: 4px;
   padding: 1rem 2rem;
 }
+
+.pattern {
+  height: 300px;
+  background-color: lightcoral;
+  background-image: url("../img/07/pattern.svg");
+  background-repeat: repeat;
+  background-size: 100px;
+}
+
+.linear {
+  height:200px;
+  background-image: linear-gradient(to right,lightblue 0%,lightcoral 10%, blue 20%, greenyellow 30%);
+}
+
+.radial {
+  height:200px;
+  background-image: radial-gradient(circle,blue, red, greenyellow);
+
+}
